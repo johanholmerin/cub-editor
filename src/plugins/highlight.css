@@ -1,0 +1,70 @@
+.comment,
+.prolog,
+.doctype,
+.cdata {
+	color: var(--syntax-comment);
+}
+
+.punctuation {
+}
+
+.namespace {
+}
+
+.constant {
+  color: var(--syntax-character);
+}
+
+.property,
+.tag,
+.boolean,
+.number,
+.symbol,
+.deleted {
+	color: var(--syntax-keyword);
+}
+
+.selector,
+.attr-name,
+.string,
+.char,
+.builtin,
+.inserted {
+	color: var(--syntax-string);
+}
+
+.operator,
+.entity,
+.url,
+.language-css .string,
+.style .string {
+	color: var(--syntax-preprocessor);
+}
+
+.atrule,
+.attr-value,
+.keyword {
+	color: var(--syntax-keyword);
+}
+
+.function,
+.class-name {
+	color: var(--syntax-keyword);
+}
+
+.regex,
+.important,
+.variable {
+}
+
+.important,
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+
+.entity {
+	cursor: help;
+}
